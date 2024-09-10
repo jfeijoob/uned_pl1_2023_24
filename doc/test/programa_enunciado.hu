@@ -1,0 +1,69 @@
+procedure ejemplo () is
+
+	-- constantes simbólicas
+	MAYORDEEDAD: constant := 17;
+	-- tipos globales
+	type Tpersona is record
+		dni: Integer;
+		edad: Integer;
+	end record;
+	
+	type Tvacio is record
+	end record;
+	
+	-- variables globales
+	persona1,persona2: Tpersona ;
+	edadGlobal: Integer;
+	-- subprogramas
+	
+	function funcionSinParametros () return Boolean is
+	begin
+		return False;
+	end mayor;
+
+	procedure procedimientoSinParametros () is
+	begin
+		Put_line("Procedimiento sin parámetros");
+	end mayor;
+
+	procedure procedimientoSinSentencias () is
+	begin
+	end mayor;
+	
+	function mayorDeEdad (edad: Integer) return Boolean is
+		begin
+			if edad>MAYORDEEDAD then
+				return True;
+			else
+				return False;
+			end if;
+	end mayorDeEdad;
+
+	procedure imprimePersona(dni:Integer; edad:Integer) is
+		-- variable local
+		debug: Boolean;
+		
+		-- procedimiento anidado
+		procedure escribe (x: Integer) is
+		    var1: Integer;
+			begin
+				Put_line(x);
+			end escribe;
+			
+		begin -- de imprimePersona
+			escribe(dni);
+			debug:=True;
+		end imprimePersona;
+		
+	-- procedimiento principal
+	begin
+		
+		persona1.dni:=1234;
+		persona1.edad:=23;
+		edadEnDias := 23*365-4;
+		persona1.direccion.calle:= "Mi calle" ;
+		if mayorDeEdad(persona1.edad) then
+			Put_line("Pers oña:");
+			imprimePersona(persona.dni, edad);
+		end if;
+	end ejemplo;

@@ -1,0 +1,70 @@
+-- Podemos comentar o descomentar cualquiera combinación de las secciones, incluso todas, y no debemos obtener ningún error semántico
+
+procedure programaPrincipal () is
+
+constante1 : constant := 11230;
+
+type persona is record edad,altura: Integer; casado: boolean; end record;
+
+tamano: Integer;
+var1,var2: Boolean;
+
+procedure p1 () is	begin end p1;
+function  p2 () return Integer is	begin	end p2;
+procedure  p3 ( Param1: Integer; Param2,Param3: out Boolean ) is	begin	end p2;
+function  p4 ( Param1: out Integer; Param2,Param3: Boolean ) return Integer is	begin	end p2;
+
+-- function  p5 ( Param1: Integer; Param2,Param3: Boolean; ) return Integer is	begin	end p2;
+-- function  p6 ( Param1: Integer Param2,Param3: Boolean ) return Integer is	begin	end p2;
+	
+begin
+
+k := "";
+
+if a /= 5 then
+b := 2;
+end if;
+
+
+if b /= 2 then
+	if c /= 2 then
+		if d/= 2 then
+			a1 := 2;
+			c1 := "";
+		end if;
+		a1 := 2;
+		c1 := "sasa";
+	else
+		if e/= 2 then
+			a1 := 2;
+			c1 := "a";		
+		else
+			a1 := 2;
+			c1 := "a";		
+		end if;
+		a1 := 2;
+		c1 := "s";	
+	end if;
+	a1 := 2;
+	c1 := "s";
+	if h /= 2 then
+	else
+	end if;
+else
+end if;
+
+while a > 1 loop
+end loop;
+
+while b > 1 loop
+	while c > 1 loop
+		if a /= b then
+			Put_line( "Hola" );
+		end if;
+	end loop;
+	c:=1;
+end loop;
+
+Put_line( func1(d,h) );
+
+end programaPrincipal;

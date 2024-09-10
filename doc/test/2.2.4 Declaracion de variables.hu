@@ -1,0 +1,16 @@
+procedure programaPrincipal () is
+-- Si descomentamos la definicion del tipo nos da un error en la constante ya que deben ir antes
+-- type persona is record edad,altura: Integer; casado: boolean; end record;
+
+constante1 : constant := 11;
+
+-- Variable definida en seccion constantes, debe dar error
+-- peso: Integer;
+
+type persona is record edad,altura: Integer; casado: boolean; end record;
+
+-- Si comentamos esta linea debería seguir funcionando
+tamano: Integer;
+
+begin
+end programaPrincipal;

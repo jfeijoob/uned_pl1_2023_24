@@ -1,0 +1,21 @@
+-- Podemos comentar o descomentar cualquiera combinación de las secciones, incluso todas, y no debemos obtener ningún error semántico
+
+procedure programaPrincipal () is
+
+constante1 : constant := 11230;
+
+type persona is record edad,altura: Integer; casado: boolean; end record;
+
+tamano: Integer;
+var1,var2: Boolean;
+
+procedure p1 () is	begin	end p1;
+function  p2 () return Integer is	begin	end p2;
+procedure  p3 ( Param1: Integer; Param2,Param3: out Boolean ) is	begin	end p2;
+function  p4 ( Param1: out Integer; Param2,Param3: Boolean ) return Integer is	begin	end p2;
+
+-- function  p5 ( Param1: Integer; Param2,Param3: Boolean; ) return Integer is	begin	end p2;
+-- function  p6 ( Param1: Integer Param2,Param3: Boolean ) return Integer is	begin	end p2;
+	
+begin
+end programaPrincipal;

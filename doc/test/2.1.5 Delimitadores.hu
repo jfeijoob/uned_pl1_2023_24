@@ -1,0 +1,6 @@
+"una cadena"
+
+(-- Apertura paréntesis
+)-- Cierre paréntesis
+
+UNO: constant := 1;

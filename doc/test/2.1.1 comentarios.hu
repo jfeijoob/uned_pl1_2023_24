@@ -1,0 +1,7 @@
+-- comentario1
+--comentario2
+---comentario3
+--- comentario4
+    -- comentario con "una cadena"
+- - comentario erroneo
+x := x-2;--comentario despues de sentencia

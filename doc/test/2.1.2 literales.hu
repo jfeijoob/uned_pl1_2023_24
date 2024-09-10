@@ -1,0 +1,12 @@
+-2
+""
+"una cadena"
+
+ 8765 -- Literal entero
+ True -- Literal lógico
+ False -- Literal lógico
+
+ "cadena erronea
+ "
+ 
+ "dsdsd

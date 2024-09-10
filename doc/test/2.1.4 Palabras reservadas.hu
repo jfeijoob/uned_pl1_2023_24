@@ -1,0 +1,23 @@
+"una cadena"
+
+ 8765 -- Literal entero
+ True -- Literal lógico
+ False -- Literal lógico
+
+a -- identificador
+1 -- numero, no indentificador
+a1a--identificador
+abc--identificador
+
+AND
+begin
+boolean constant else
+end "as  as"
+function if integer is loop
+out put_Line procedure
+record return then type while
+
+"dfdfd
+"
+
+"dsdsd

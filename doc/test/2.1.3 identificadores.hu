@@ -1,0 +1,11 @@
+"una cadena"
+
+ 8765 -- Literal entero
+ True -- Literal lógico
+ False -- Literal lógico
+
+a -- identificador
+1 -- numero, no indentificador
+a1a--identificador
+abc--identificador
+abcá

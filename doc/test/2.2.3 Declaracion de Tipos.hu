@@ -1,0 +1,14 @@
+procedure programaPrincipal () is
+constante1 : constant := 11;
+constante2 : constant := 11;
+type persona is record
+	edad,altura: Integer;
+	casado: boolean;
+end record;
+type animal is record
+	edad,altura: Integer;
+	peso: Integer;
+end record;
+-- constante3 : constant := 11;
+begin
+end programaPrincipal;

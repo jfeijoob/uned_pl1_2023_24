@@ -1,0 +1,64 @@
+-- comentario vacio
+
+procedure testCaseA01 () is 
+
+VERDADERO: constant:=true;
+FALSO: constant:=false;
+NUMERO: constant:= 37;
+
+type unregistro is record
+	patata: Integer;
+end record;
+
+type otroregistro is record
+	pepino: unregistro;
+end record;
+
+x,y: Integer;
+salmon, banana: otroregistro;
+alpha: betamax;
+
+function amoave(x,y: out integer; cocacola: boolean)
+	return boolean is
+	begin
+	end amoave;
+
+procedure amoave2(patata, pimiento: otroregistro) is
+	begin
+	end amoave2;
+
+function amoave3(cocacola: boolean)
+	return integer is
+	begin
+		return True;
+	end amoave3;
+
+
+begin
+
+if alpha > beta then 
+
+	if beta /= gamma then
+
+	end if;
+
+else
+
+	if boqueron then
+		put_line("hola mendrugo");
+	else
+
+	end if;
+
+end if;
+
+while listado > producto loop
+
+	x:= 5-2*3;
+	y:= (patata AND merluza) AND boniato;
+	abanibi();
+	
+end loop;
+
+
+end testCaseA01;

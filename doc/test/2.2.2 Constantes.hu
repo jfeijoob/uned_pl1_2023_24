@@ -1,0 +1,6 @@
+procedure programaPrincipal () is
+constante1 : constant := 11;
+constante2 : constant := True;
+-- Constante con error constante3 : constant := Tr;
+begin
+end programaPrincipal;
